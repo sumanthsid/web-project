@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Investigation form</title>
+<style>
+	div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: #777;
+}
+
+.box{
+  background:white;
+  width:750px;
+  border-radius:7px;
+  margin: 15px auto 0 auto;
+  padding:10px 0px 10px 0px;
+  border: #C0C0C0 4px solid; 
+}
+</style>
+</head>
+<body bgcolor="FDE311">
+<div class="scrollmenu">
+  <a href="file:///C:/Users/sssum/Desktop/web%20and%20dbms%20project/mainpage/frontend1.html">HOME</a>
+  <a href="file:///C:/Users/sssum/Desktop/web%20and%20dbms%20project/login%20page/login1.html">POLICE LOGIN</a>
+  <a href="file:///C:/Users/sssum/Desktop/web%20and%20dbms%20project/complaint_status/compalintstatus.html">COMPLAINT STATUS</a>
+  <a href="file:///C:/Users/sssum/Desktop/web%20and%20dbms%20project/about%20us/aboutus.html">ABOUT US</a>
+  <a href="file:///C:/Users/sssum/Desktop/web%20and%20dbms%20project/customercare/customercare.html">CUSTOMER CARE</a>
+</div>
+
+<div class="box">
+<form style="margin: 13px">
+   <center><h2><u>Assign incharge to the case</h2></u></center>
+  <h3><b>Click on button to retrieve complaints</b></h3></P>
+  <input type="button" name="retrieve" value="Retrieve complaints" size="37" onclick="retrieve()">
+  <P><b>Enter Incharge inspector id:</b></P>
+  <input type="text" name="complain_no" value="" size="37">
+  <P><b>Enter CASE ID(complaint number):</b></P>
+  <input type="text" name="case_id" value="" size="37">
+  <P><b>Enter Grievant user number(GUN): aka grievant UID</b></P>
+  <input type="text" name="gun" value="" size="37">
+  <P><b>Enter Inpsector incharge name:</b></P>
+  <input type="text" name="time_of_mishap" value="" size="37">
+  <P><b>Enter result(Case solved or not)</b></P>
+  <form style="margin: 13px"> 
+  	<input type="radio" name="yes" value="yes" checked> Solved<br>
+    <input type="radio" name="no" value="no"> Not solved<br>
+  </form>
+  
+  
+  <input type="submit">
+  
+</form>
+</div>
+
+
+</body>
+
+</html>
