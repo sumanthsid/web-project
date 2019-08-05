@@ -1,0 +1,2 @@
+# web-project
+A website for citizens to register a complaint to the city police station. The citizens can lookup the status of the complaint and also have a profile. The police officers can login to the page and can retrieve information about the complaint. The website has a Batman theme and is built using HTML5, CSS3 and javascript. The backend database is built using XAMPP and connected using PHP.
